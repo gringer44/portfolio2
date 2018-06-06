@@ -1,0 +1,144 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color:#747704;
+    font-weight: 300;
+}
+.buttonwrapper {
+  display: inline-block;
+}
+
+input{
+  background-color: transparent;
+  border: 2px solid black;
+}
+/* Allows the resume.html nav bar ob be full width        */
+.fullnav {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.current a
+{
+    color: orange !important;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 20px 20px 20px 20px; /* bottom has to be the same as footer height */
+}
+footer {
+    /* just for demo */
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+   /* just for demo */
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.desktop-nav {
+    background-color: #111111;
+    float: right;
+    width:1024px;
+    margin-top: 10px;
+    margin-left:60%;
+}
+
+.desktop-nav {
+background-color: blue;
+padding: 10px 5px 10px 5px;
+}
+
+
+
+
+.top-image {
+    margin-top: 10px;
+}
+
+.img.img-responsive{
+    width: 250px;
+    height:200px;
+    margin:20px;
+}
+
+.rectangle{
+
+    width: 250px;
+    height:200px;
+    margin:20px;
+    border: solid;
+    background-color: #222222;
+
+}
+.orange {
+text-color: orange;
+
+}
+
+.text-muted {
+    color:#bcbbbb;
+}
+
+.ux-design-header {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 200;
+
+}
+
+.col {
+    margin-bottom:10px;
+    margin-top:10px;
+
+}
+
+.box-spacing{
+    margin-bottom:20px;
+    margin-top:30px;
+
+}
+
+.row {
+ margin-bottom:10px;
+ margin-top:10px;
+
+}
+div.row .ux-design-header {
+
+   margin-top:5px;
+   margin-bottom:10px;
+}
+.
+
+.text-thin {
+    color:#bcbbbb;
+    font-weight: 100;
+}
+
+.title-big {
+
+    font-size: 3.5em;
+}
+
+.logo-margin {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#image1{
+    border: 3px solid #000;
+    padding: 0;
+}
+
+.clearfix {
+    overflow: auto;
+}

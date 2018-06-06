@@ -1,0 +1,411 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+
+h1 {
+    color:#ff0000;
+    text-decoration: underline;
+
+}
+
+button {
+        background-color: red;
+
+    }
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 72px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+}
+
+.blue-title {
+    color:blue;
+
+
+}
+
+.row div div{
+background-color:yellow;
+margin:10px;
+
+
+}
+
+.first-row-first-column d{
+background-color: #ff0000;
+height: 100px;
+
+}
+
+========================================================================== */
+
+/*========================================================================== *
+            From styles.css ux design light blue uxdesign mock up
+==========================================================================*/
+body {
+    font-family: 'Lato', sans-serif;
+    color:#191a15;
+    font-weight: 500;
+}
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+}
+footer {
+    /* just for demo */
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+   /* just for demo */
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.text-muted {
+    color:#bcbbbb;
+}
+
+.text-thin {
+    color:#000000;
+    font-weight: 200;
+}
+
+.title-big {
+
+    font-size: 3.5em;
+}
+
+.logo-margin {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+========================================================================== */
+
+
+
+body{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+/* EXAMPLE 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+
+.example2 .navbar-brand img {
+  padding: 7px 15px;
+}
+
+
+.page-content {
+    margin-top: 50px;
+}
+
+
+.btn .btn-primary .front-page {
+   margin-top: 10px;
+   margin-bottom: 30px;
+   padding-bottom: 30px;
+}
+
+
+.jumbotron h1 {
+   font-size: 32px; 
+   color:#000000;
+   font-weight: 600;
+}
+.marginad{
+    margin-bottom: 30px;
+}
+
+
+.jumbotron {
+    border: solid blue;
+    background-color: #fff;
+    
+}
+
+.jumbotron p{
+    color:#000000;
+    font-weight: 300;
+    
+}
+
+
+.navbar-default {
+    background-color: rgb(15, 36, 230);
+    border-color: rgb(193, 189, 251);
+}
+
+.navbar-nav  li  a {
+    background:100px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+ .current a
+{
+    color: orange !important;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+li a {
+    display: block;
+   
+}
+nav ul {
+  padding: 0;
+  margin: 0; }
+
+
+div.boxg {
+
+
+    margin:  20px;
+    border: 2px solid;
+    border-color: #0076FF;
+    color:#000;
+    background-color: #fff;
+   	text-align: center;
+    font-size: 20px;
+}
+
+.boxgwidth {
+    width:320px;
+    margin: 30px;
+
+
+}
+
+.boxg-title{
+
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.boxg-text {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+div.boxg {
+    border-radius:8px;
+}
+
+
+
+.div .cardbodys .p{
+   font-size: 20px;
+}
+.p{
+   font-size: 20px;
+}
+.textdown{
+  margin-bottom: 100px;
+}
+
+.logo-size{
+   height: 50px;
+    width: 50px;
+}
+
+
+.logo-margin {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Nav Bar Styles */
+
+
+
+/* OPTION 1*/
+.jumbotron {
+  background-image: url('../img/waves2.png');
+}
+
+/* OPTION 2 */
+.jumbotron {
+  background-image: url('../img/waves.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.mobile-nav {
+  background-color: blue;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+}
+.desktop-nav {
+    background-color: blue;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+    
+}
+.desktop-nav .desktop-link {
+  margin: 0 10px 0 10px;
+}
+
+.desktop-nav .desktop-link-home {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.desktop-nav .right-links {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.divtaller{
+    height: 50px;
+   
+}
+.backtotopbutton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: green; /* Set a background color */
+    color: blue; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 100px; /* Rounded corners */
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+}
+
+.backtotopbutton:hover {
+    background-color: #ffffff; /* Add a dark-grey background on hover */
+}
+
+.portfolio-image {
+  width: 100px;
+  height: 100px;
+}
+
+.my-div-class {
+  border: blue 1px solid;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  margin: 60px 45px;
+}
+
+.my-div-class2 {
+  border: blue 1px solid;
+  border-radius: 10px;
+  margin: 60px 45px;
+  width: 100%;
+  height: 400px;
+}
+
+.my-custom-class {
+  background-color: blue;
+  height: 100px;
+  margin: 50px;
+}
+
+.container {
+  background-color: #BDDCFB;
+}
+
+.carousel {
+  margin-top: 50px;
+}
+
+.carousel-item {
+  background-image: url(../img/waves2.png);
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-item-2 {
+  background-image: url(../img/3.svg);
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-item a {
+  margin-left: 100px;
+  margin-top: 200px;
+}
+@media only screen and (max-width: 991px) {
+  .my-custom-class {
+    height: 300px;
+    background-color: red;
+  }
+    
+  .page-content {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .my-custom-class {
+    height: 50px;
+    background-color: yellow;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
